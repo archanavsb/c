@@ -1,10 +1,11 @@
 #include<stdio.h>
 int main()
 {
-int counter;
-for(counter=0;counter=5;counter++)
+int h=0;
+while(h<=5)  
 {
 printf("hello world\n");
+h=h+1;
 }
 return 0;
 }
